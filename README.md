@@ -7,7 +7,7 @@
 
 **Sans rien installer (Codespace)** : connectez-vous à GitHub, puis
 
-[![Ouvrir dans GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/zenika-dev/starter-squad-1-offre)
+[![Ouvrir dans GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Zenika-Training/accor-pdlc-workshop-squad-1-offre)
 
 Laissez vides les champs `ANTHROPIC_…`, cliquez sur **Create codespace**, attendez « ✓ Codespace prêt », puis dans le terminal :
 `claude auth login` (connexion avec votre compte Claude), et parlez à l'agent depuis l'icône Claude.
@@ -16,17 +16,17 @@ Laissez vides les champs `ANTHROPIC_…`, cliquez sur **Create codespace**, atte
 
 ```powershell
 # Windows, dans PowerShell
-$env:SQUAD = "squad-1-offre"; irm https://raw.githubusercontent.com/zenika-dev/ai4d-hackathon-kit/main/installation/installer-prerequis.ps1 | iex
+$env:SQUAD = "squad-1-offre"; irm https://raw.githubusercontent.com/Zenika-Training/accor-pdlc-workshop-context-nexus/main/tools/installation/installer-prerequis.ps1 | iex
 ```
 
 ```bash
 # macOS, dans Terminal
-curl -fsSL https://raw.githubusercontent.com/zenika-dev/ai4d-hackathon-kit/main/installation/installer-prerequis.sh | bash -s -- squad-1-offre
+curl -fsSL https://raw.githubusercontent.com/Zenika-Training/accor-pdlc-workshop-context-nexus/main/tools/installation/installer-prerequis.sh | bash -s -- squad-1-offre
 ```
 
 Puis `cd ~/hackathon/starter-squad-1-offre`, `claude auth login` et `claude`.
 
-Pas à pas complet : [fiche de démarrage, section Squad 1](https://github.com/zenika-dev/ai4d-hackathon-kit/blob/main/commun/fiche-demarrage.md#squad-1).
+Pas à pas complet : [fiche de démarrage, section Squad 1](https://github.com/Zenika-Training/accor-pdlc-workshop-kit/blob/main/commun/fiche-demarrage.md#squad-1).
 
 ## Ce que contient ce dépôt
 
@@ -60,5 +60,5 @@ Le contexte partagé doit être cloné à côté du starter (`../context-nexus`)
 
 ## Liens
 
-- Fiche de la squad : [squads/squad-1-offre/KIT.md](https://github.com/zenika-dev/ai4d-hackathon-kit/blob/main/squads/squad-1-offre/KIT.md)
-- Contexte partagé : [ai4d-hackathon-context-nexus](https://github.com/zenika-dev/ai4d-hackathon-context-nexus) · dossier de la squad : [teams/squad-1-offre](https://github.com/zenika-dev/ai4d-hackathon-context-nexus/tree/main/teams/squad-1-offre)
+- Fiche de la squad : [squads/squad-1-offre/KIT.md](https://github.com/Zenika-Training/accor-pdlc-workshop-kit/blob/main/squads/squad-1-offre/KIT.md)
+- Contexte partagé : [accor-pdlc-workshop-context-nexus](https://github.com/Zenika-Training/accor-pdlc-workshop-context-nexus) · dossier de la squad : [teams/squad-1-offre](https://github.com/Zenika-Training/accor-pdlc-workshop-context-nexus/tree/main/teams/squad-1-offre)
